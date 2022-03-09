@@ -1,10 +1,13 @@
 *::before, *::after {
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
-    background: linear-gradient(to right,#00aaff, #00ff6c) 
+    background: linear-gradient(to right,#00aaff, #00ff6c) ;
+    /* font-family: 'Orbitron', sans-serif; */
+   
 }
 
 .calculator-grid{
@@ -13,6 +16,8 @@ body {
     justify-content:center;
     grid-template-columns: repeat(4,6rem);
     grid-template-rows: minmax(7rem, auto)  repeat(5, 6rem);
+    font-family: 'Orbitron', sans-serif;
+    
 }
 
 .span-two {
@@ -29,6 +34,7 @@ body {
     padding: .75rem;
     word-wrap: break-word;
     word-break: break-all;
+    /* font-family:'digital-clock-font'; */
 }
 
 .output .previous-operand {

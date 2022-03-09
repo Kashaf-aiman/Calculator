@@ -3,7 +3,7 @@ import './styled.css';
 import DigitButton from './DigitButton';
 import OperationButton from './OperationButton';
 
- export const ACTIONS = {
+export const ACTIONS = {
   ADD_DIGIT: 'add-digit',
   CHOOSE_OPERATION: 'choose-operation',
   CLEAR: 'clear',
